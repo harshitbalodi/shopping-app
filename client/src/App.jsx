@@ -1,6 +1,6 @@
 import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
-import ProductList from './components/ProductList';
-import Cart from './components/Cart';
+import ProductList from './components/ProductList/ProductList';
+import Cart from './components/Cart/Cart';
 import Header from './components/Header/Header';
 import './App.css';
 

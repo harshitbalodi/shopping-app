@@ -8,24 +8,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 0.5;
+    z-index: 1;
   }
   
   .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
+    width: 90%;
   }
   
   .company-name {
     font-size: 24px;
     font-weight: bold;
+    color: white;
   }
   
   .cart-icon {
     display: flex;
     align-items: center;
     cursor: pointer;
+    color: white;
   }
   

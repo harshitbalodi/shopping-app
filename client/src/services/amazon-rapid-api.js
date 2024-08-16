@@ -62,15 +62,15 @@ const getProductsByCategory = async (
 
   try {
     const response = await axios.request(options);
-    console.log(response.data);
-    return response.data;
+    console.log("response.data in getProductsByCategory",response.data);
+    return response.data.data;
   } catch (error) {
     console.error(error);
     throw error;
   }
 };
 
-const getProductDetails = async (asin, country = "US") => {
+const getProductDetails = async (asin, country = "IN") => {
   const options = {
     method: "GET",
     url: "https://real-time-amazon-data.p.rapidapi.com/product-details",
